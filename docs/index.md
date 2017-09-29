@@ -18,3 +18,4 @@ Tutorials are interactive web documents that instructors can use as in-class act
 4. [Data and diabetes](https://dtkaplan.shinyapps.io/Diabetes/)
 
 Look here for [Remind Information](Calc2-RemindInfo.pdf)
+Here's the [Course Calendar](Fall17_Calendar.pdf) 
