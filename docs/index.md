@@ -1,21 +1,30 @@
-# Math 1130 Fun Stuff
+---
+title: "My Own Practice"
+author: "Nicole"
+date: "10/27/2017"
+output: html_document
+---
 
-This site contains some of the activities we will be doing in our class.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-## Welcome to StatPREP. 
+## R Markdown
 
-This page contains links and other student-facing information for StatPREP activities.
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-> If you are a student looking for the web page for your own instructor's web site, you're not there. Check with your instructor to make sure that you have the right URL for your instructor's web site.
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-## Tutorials
+```{r cars}
+summary(cars)
+```
 
-Tutorials are interactive web documents that instructors can use as in-class activities or as assignments. Chances are, your instructor has his or her own web site that contains links to the Tutorials being used in your class. But your welcome to browse this site to look at Tutorials that were not assigned.
+## Including Plots
 
-1. [Confidence in taxis](https://dtkaplan.shinyapps.io/Confidence_in_Taxis/)
-2. [Experiment with paper planes](https://dtkaplan.shinyapps.io/Paper_planes/)
-3. [Driver reaction times](http://dtkaplan.shinyapps.io/Traffic_signs)
-4. [Data and diabetes](https://dtkaplan.shinyapps.io/Diabetes/)
+You can also embed plots, for example:
 
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
 
-### Hi, Kate!
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
